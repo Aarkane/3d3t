@@ -1,232 +1,21 @@
 import random
 
 def FourD3t():   
-    '''plane 1'''
-    aw1='_'
-    ax1='_'
-    ay1='_'
-    az1='_'
-    bw1='_'
-    bx1='_'
-    by1='_'
-    bz1='_'
-    cw1='_'
-    cx1='_'
-    cy1='_'
-    cz1='_'
-    dw1='_'
-    dx1='_'
-    dy1='_'
-    dz1='_'
-    '''plane 2'''
-    aw2='_'
-    ax2='_'
-    ay2='_'
-    az2='_'
-    bw2='_'
-    bx2='_'
-    by2='_'
-    bz2='_'
-    cw2='_'
-    cx2='_'
-    cy2='_'
-    cz2='_'
-    dw2='_'
-    dx2='_'
-    dy2='_'
-    dz2='_'
-    '''plane 3'''
-    aw3='_'
-    ax3='_'
-    ay3='_'
-    az3='_'
-    bw3='_'
-    bx3='_'
-    by3='_'
-    bz3='_'
-    cw3='_'
-    cx3='_'
-    cy3='_'
-    cz3='_'
-    dw3='_'
-    dx3='_'
-    dy3='_'
-    dz3='_'
-    '''plane 4'''
-    aw4='_'
-    ax4='_'
-    ay4='_'
-    az4='_'
-    bw4='_'
-    bx4='_'
-    by4='_'
-    bz4='_'
-    cw4='_'
-    cx4='_'
-    cy4='_'
-    cz4='_'
-    dw4='_'
-    dx4='_'
-    dy4='_'
-    dz4='_'
-        
-    def play():
+   
+FourD3t()      
+    
+    
+    
+def play():
         winner = 'none'
         while winner == 'none':
             
-            def turns():
+
                 def xTurn():
-                    print("It is player x's turn, enter a coordinate to place your piece")
-                    raw_input()
-                    
-                    """plane 1"""
-                    if aw1=='_' and raw_input==('aw1'):
-                        aw1 = 'x'
-                    elif ax1=='_' and raw_input==('ax1'):
-                        ax1 = 'x'
-                    elif ay1=='_' and raw_input==('ay1'):
-                        ay1 = 'x'
-                    elif az1=='_' and raw_input==('az1'):
-                        az1 = 'x'
-                        
-                    elif bw1=='_' and raw_input==('bw1'):
-                        bw1 = 'x'
-                    elif bx1=='_' and raw_input==('bx1'):
-                        bx1 = 'x'
-                    elif by1=='_' and raw_input==('by1'):
-                        by1 = 'x'
-                    elif bz1=='_' and raw_input==('bz1'):
-                        bz1 = 'x'
-                        
-                    elif cw1=='_' and raw_input==('cw1'):
-                        cw1 = 'x'
-                    elif cx1=='_' and raw_input==('cx1'):
-                        cx1 = 'x'
-                    elif cy1=='_' and raw_input==('cy1'):
-                        cy1 = 'x'
-                    elif cz1=='_' and raw_input==('cz1'):
-                        cz1 = 'x'
-                        
-                    elif dw1=='_' and raw_input==('dw1'):
-                        dw1 = 'x'
-                    elif dx1=='_' and raw_input==('dx1'):
-                        dx1 = 'x'
-                    elif dy1=='_' and raw_input==('dy1'):
-                        dy1 = 'x'
-                    elif dz1=='_' and raw_input==('dz1'):
-                        dz1 = 'x'
-                        
-                    """plane 2"""
-                    if aw2=='_' and raw_input==('aw2'):
-                        aw2 = 'x'
-                    elif ax2=='_' and raw_input==('ax2'):
-                        ax2 = 'x'
-                    elif ay2=='_' and raw_input==('ay2'):
-                        ay2 = 'x'
-                    elif az2=='_' and raw_input==('az2'):
-                        az2 = 'x'
-                        
-                    elif bw2=='_' and raw_input==('bw2'):
-                        bw2 = 'x'
-                    elif bx2=='_' and raw_input==('bx2'):
-                        bx2 = 'x'
-                    elif by2=='_' and raw_input==('by2'):
-                        by2 = 'x'
-                    elif bz2=='_' and raw_input==('bz2'):
-                        bz2 = 'x'
-                        
-                    elif cw2=='_' and raw_input==('cw2'):
-                        cw2 = 'x'
-                    elif cx2=='_' and raw_input==('cx2'):
-                        cx2 = 'x'
-                    elif cy2=='_' and raw_input==('cy2'):
-                        cy2 = 'x'
-                    elif cz2=='_' and raw_input==('cz2'):
-                        cz2 = 'x'
-                        
-                    elif dw2=='_' and raw_input==('dw2'):
-                        dw2 = 'x'
-                    elif dx2=='_' and raw_input==('dx2'):
-                        dx2 = 'x'
-                    elif dy2=='_' and raw_input==('dy2'):
-                        dy2 = 'x'
-                    elif dz2=='_' and raw_input==('dz2'):
-                        dz2 = 'x'
-                        
-                    """plane 3"""
-                    if aw3=='_' and raw_input==('aw3'):
-                        aw3 = 'x'
-                    elif ax3=='_' and raw_input==('ax3'):
-                        ax3 = 'x'
-                    elif ay3=='_' and raw_input==('ay3'):
-                        ay3 = 'x'
-                    elif az3=='_' and raw_input==('az3'):
-                        az3 = 'x'
-                        
-                    elif bw3=='_' and raw_input==('bw3'):
-                        bw3 = 'x'
-                    elif bx3=='_' and raw_input==('bx3'):
-                        bx3 = 'x'
-                    elif by3=='_' and raw_input==('by3'):
-                        by3 = 'x'
-                    elif bz3=='_' and raw_input==('bz3'):
-                        bz3 = 'x'
-                        
-                    elif cw3=='_' and raw_input==('cw3'):
-                        cw3 = 'x'
-                    elif cx3=='_' and raw_input==('cx3'):
-                        cx3 = 'x'
-                    elif cy3=='_' and raw_input==('cy3'):
-                        cy3 = 'x'
-                    elif cz3=='_' and raw_input==('cz3'):
-                        cz3 = 'x'
-                        
-                    elif dw3=='_' and raw_input==('dw3'):
-                        dw3 = 'x'
-                    elif dx3=='_' and raw_input==('dx3'):
-                        sdx3 = 'x'
-                    elif dy3=='_' and raw_input==('dy3'):
-                        dy3 = 'x'
-                    elif dz3=='_' and raw_input==('dz3'):
-                        dz3 = 'x'
-                        
-                    """plane 4"""
-                    if aw4=='_' and raw_input==('aw4'):
-                        aw4 = 'x'
-                    elif ax4=='_' and raw_input==('ax4'):
-                        ax4 = 'x'
-                    elif ay4=='_' and raw_input==('ay4'):
-                        ay4 = 'x'
-                    elif az4=='_' and raw_input==('az4'):
-                        az4 = 'x'
-                        
-                    elif bw4=='_' and raw_input==('bw4'):
-                        bw4 = 'x'
-                    elif bx4=='_' and raw_input==('bx4'):
-                        bx4 = 'x'
-                    elif by4=='_' and raw_input==('by4'):
-                        by4 = 'x'
-                    elif bz4=='_' and raw_input==('bz4'):
-                        bz4 = 'x'
-                        
-                    elif cw4=='_' and raw_input==('cw4'):
-                        cw4 = 'x'
-                    elif cx4=='_' and raw_input==('cx4'):
-                        cx4 = 'x'
-                    elif cy4=='_' and raw_input==('cy4'):
-                        cy4 = 'x'
-                    elif cz4=='_' and raw_input==('cz4'):
-                        cz4 = 'x'
-                        
-                    elif dw4=='_' and raw_input==('dw4'):
-                        dw4 = 'x'
-                    elif dx4=='_' and raw_input==('dx4'):
-                        dx4 = 'x'
-                    elif dy4=='_' and raw_input==('dy4'):
-                        dy4 = 'x'
-                    elif dz4=='_' and raw_input==('dz4'):
-                        dz4 = 'x'
-                    xTurn()
+                    import Xturn
+
+                xTurn()
+
                         
                 def oTurn():
                     print("It is player o's turn, enter a coordinate to place your piece")
@@ -380,11 +169,11 @@ def FourD3t():
                     elif dz4=='_' and raw_input==('dz4'):
                         dz4 = 'o'
                 oTurn()
-            turns()                
+                    
         
-            def WinMethods():
+         
                 
-                def xWins():
+def xWins():
                     '''Two Dimensional win methods'''
                     
                     '''a-row'''
@@ -502,75 +291,74 @@ def FourD3t():
                         winner = 'x'
                         
                     '''c-row'''
-                    if cw1='x' and cx2='x' and cy3='x' and cz4='x':
+                    if cw1=='x' and cx2=='x' and cy3=='x' and cz4=='x':
                         winner = 'x'
-                    elif cw4='x' and cx3='x' and cy2='x' and cz1='x':
+                    elif cw4=='x' and cx3=='x' and cy2=='x' and cz1=='x':
                         winner = 'x'
                         
                     '''d-row'''
-                    if dw1='x' and dx2='x' and dy3='x' and dz4='x':
+                    if dw1=='x' and dx2=='x' and dy3=='x' and dz4=='x':
                         winner = 'x'
-                    elif dw4='x' and dx3='x' and dy2='x' and dz1='x':
+                    elif dw4=='x' and dx3=='x' and dy2=='x' and dz1=='x':
                         winner = 'x'
                         
                     '''w-row'''
-                    if aw1='x' and bw2='x' and cw3='x' and dw4='x':
+                    if aw1=='x' and bw2=='x' and cw3=='x' and dw4=='x':
                         winner = 'x'
-                    elif aw4='x' and bw3='x' and cw2='x' and dw1='x':
+                    elif aw4=='x' and bw3=='x' and cw2=='x' and dw1=='x':
                         winner = 'x'
                         
                     '''x-row'''
-                    if ax1='x' and bx2='x' and cx3='x' and dx4='x':
+                    if ax1=='x' and bx2=='x' and cx3=='x' and dx4=='x':
                         winner = 'x'
-                    elif ax4='x' and bx3='x' and cx2='x' and dx1='x':
+                    elif ax4=='x' and bx3=='x' and cx2=='x' and dx1=='x':
                         winner = 'x'
                         
                     '''y-row'''
-                    if ay1='x' and by2='x' and cy3='x' and dy4='x':
+                    if ay1=='x' and by2=='x' and cy3=='x' and dy4=='x':
                         winner = 'x'
-                    elif ay4='x' and by3='x' and cy2='x' and dy1='x':
+                    elif ay4=='x' and by3=='x' and cy2=='x' and dy1=='x':
                         winner = 'x'
                         
                     '''z-row'''
-                    if az1='x' and bz2='x' and cz3='x' and dz4='x':
+                    if az1=='x' and bz2=='x' and cz3=='x' and dz4=='x':
                         winner = 'x'
-                    elif az4='x' and bz3='x' and cz2='x' and dz1='x':
+                    elif az4=='x' and bz3=='x' and cz2=='x' and dz1=='x':
                         winner = 'x'
                         
                     '''forward-slash'''
-                    if aw1='x' and bx2='x' and cy3='x' and dz4='x':
+                    if aw1=='x' and bx2=='x' and cy3=='x' and dz4=='x':
                         winner = 'x'
-                    elif aw4='x' and bx3='x' and cy2='x' and dz1='x':
+                    elif aw4=='x' and bx3=='x' and cy2=='x' and dz1=='x':
                         winner = 'x'
                         
                     '''back-slash'''
-                    if az1='x' and by2='x' and cx3='x' and dw4='x':
+                    if az1=='x' and by2=='x' and cx3=='x' and dw4=='x':
                         winner = 'x'
-                    elif az4='x' and by3='x' and cx2='x' and dw1='x':
+                    elif az4=='x' and by3=='x' and cx2=='x' and dw1=='x':
                         winner = 'x'
-                xWins()
-                
-                def oWins():
+            
+def oWins():
                     '''Two Dimensional win methods'''
                     
-                        '''a-row'''
-                    if aw1='o' and ax1='o' and ay1='o' and az1='o':
+                    '''a-row'''
+                    if aw1=='o' and ax1=='o' and ay1=='o' and az1=='o':
                         winner = 'o'
-                    elif aw2='o' and ax2='o' and ay2='o' and az2='o':
+                    elif aw2=='o' and ax2=='o' and ay2=='o' and az2=='o':
                         winner = 'o'
-                    elif aw3='o' and ax3='o' and ay3='o' and az3='o':
+                    elif aw3=='o' and ax3=='o' and ay3=='o' and az3=='o':
                         winner = 'o'
-                    elif aw4='o' and ax4='o' and ay4='o' and az4='o':
+                    elif aw4=='o' and ax4=='o' and ay4=='o' and az4=='o':
                         winner = 'o'
                         
                     '''b-row'''
-                    if bw1='o' and bx1='o' and by1='o' and bz1='o':
+                    if bw1=='o' and bx1=='o' and by1=='o' and bz1=='o':
                         winner = 'o'
-                    elif bw2='o' and bx2='o' and by2='o' and bz2='o':
+                    elif bw2=='o' and bx2=='o' and by2=='o' and bz2=='o':
                         winner = 'o'
-                    elif bw3='o' and bx3='o' and by3='o' and bz3='o':
+                    elif bw3=='o' and bx3=='o' and by3=='o' and bz3=='o':
                         winner = 'o'
-                    elif bw4='o' and bx4='o' and by4='o' and bz4='o':
+                    elif bw4=='o' and bx4=='o' and by4=='o' and bz4=='o':
                         winner = 'o'
                         
                     '''c-row'''
@@ -698,7 +486,7 @@ def FourD3t():
                         winner = 'o'
                         
                     '''z-row'''
-                    if az1=='o' and bz2='o' and cz3=='o' and dz4=='o':
+                    if az1=='o' and bz2=='o' and cz3=='o' and dz4=='o':
                         winner = 'o'
                     elif az4=='o' and bz3=='o' and cz2=='o' and dz1=='o':
                         winner = 'o'
@@ -714,24 +502,5 @@ def FourD3t():
                         winner = 'o'
                     elif az4=='o' and by3=='o' and cx2=='o' and dw1=='o':
                         winner = 'o'
-                oWins()
-            WinMethods()
-    play()
-FourD3t()                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+                              
